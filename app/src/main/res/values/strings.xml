@@ -3,4 +3,7 @@
     <string name="title_menu_first">First Fragment</string>
     <string name="title_menu_second">Second Fragment</string>
     <string name="title_menu_third">Third Fragment</string>
+    <string name="title_menu_second_depth">Second Depth Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

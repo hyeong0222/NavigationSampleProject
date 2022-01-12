@@ -9,7 +9,11 @@
         android:id="@+id/firstFragment"
         android:name="com.example.navigationsampleproject.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondDepthFragment"
+            app:destination="@id/secondDepthFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/secondFragment"
@@ -22,5 +26,15 @@
         android:name="com.example.navigationsampleproject.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/secondDepthFragment"
+        android:name="com.example.navigationsampleproject.SecondDepthFragment"
+        android:label="fragment_second_depth"
+        tools:layout="@layout/fragment_second_depth" >
+        <argument
+            android:name="param_count"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment><action android:id="@+id/action_global_secondDepthFragment" app:destination="@id/secondDepthFragment"/>
 
 </navigation>
