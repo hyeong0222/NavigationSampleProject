@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    // id는 navigation 화면에서 정한 값으로 지정되어야 함
+    <item
+        android:id="@id/firstFragment"
+        android:icon="@drawable/ic_folder"
+        android:title="@string/title_menu_first" />
+
+    <item
+        android:id="@id/secondFragment"
+        android:icon="@drawable/ic_folder"
+        android:title="@string/title_menu_second" />
+
+    <item
+        android:id="@id/thirdFragment"
+        android:icon="@drawable/ic_folder"
+        android:title="@string/title_menu_third" />
+
+</menu>
